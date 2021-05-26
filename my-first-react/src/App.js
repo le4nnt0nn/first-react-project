@@ -4,11 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          My first React Project !
-        </p>
-      </header>
+        <h1>To-Do List</h1>
     </div>
   );
 }
