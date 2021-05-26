@@ -1,6 +1,6 @@
 import React from "react";
 
-const todos = ["Finish homework", "Wash dishes", "Clean room", "Make waffles"];
+const todos = ["Terminar Trabajo", "Estudiar PHP", "Aprender React", "Salir al cine"];
 
 const TodoList = () => (
   <ul>
