@@ -1,5 +1,6 @@
 import './App.css';
 import TodoList from "./components/todoList";
+import TodoForm from "./components/todoForm";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <h1>To-Do List</h1>
         <div className="todo-list">
           <TodoList />
+          <TodoForm />
         </div>
         
     </div>
