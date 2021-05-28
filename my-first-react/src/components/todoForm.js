@@ -1,12 +1,16 @@
 import React from "react";
 
 class TodoForm extends React.Component {
-
- /* constructor */
- constructor(props) {
+  /* constructor */
+  constructor(props) {
     super(props);
     this.state = { todoInput: "" };
-}   
+  }
+
+  /* functions */
+  doChange = (event) => {
+    this.setState({ todoInput: event.target.value });
+  };
 
   render() {
     return (
