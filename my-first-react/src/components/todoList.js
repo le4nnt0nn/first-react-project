@@ -1,12 +1,10 @@
 import React from "react";
 
-const todos = ["Terminar Trabajo", "Estudiar PHP", "Aprender React", "Salir al cine"];
-
 const Todo = props => <li>{props.todo}</li>;
 
-const TodoList = () => (
+const TodoList = props => (
   <ul>
-    {todos.map(todo => (
+    {props.todos.map(todo => (
       <Todo todo={todo} key={todo} />
     ))}
   </ul>
