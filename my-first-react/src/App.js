@@ -3,6 +3,15 @@ import TodoList from "./components/todoList";
 import TodoForm from "./components/todoForm";
 
 function App() {
+
+  /* constructor */
+  constructor(props) {
+    super(props);
+    this.state = {
+      todos: ["Finish homework", "Wash dishes", "Clean room", "Make waffles"],
+    };
+  }
+
   return (
     <div className="App">
         <h1>To-Do List</h1>
