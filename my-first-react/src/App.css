@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+* {
+  background-color: rgb(56, 243, 243);
+  font-family: 'Recursive', sans-serif;
+  font-weight: bold;
+}
+
 .App {
   text-align: center;
   font-weight: bold;
@@ -5,6 +13,12 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+
+.App h1 {
+  font-size: 50px;
+  background-color: transparent;
+  color: rgb(255, 93, 34);
 }
 
 .todo-list {
