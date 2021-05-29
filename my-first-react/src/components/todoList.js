@@ -1,6 +1,6 @@
 import React from "react";
 
-const todos = ["Finish homework", "Wash dishes", "Clean room", "Make waffles"];
+const todos = ["Aprender React", "Practicar Visual Basic", "Salir con amigos", "Ver serie de anime"];
 
 const Todo = props => <li>{props.todo}</li>;
 
