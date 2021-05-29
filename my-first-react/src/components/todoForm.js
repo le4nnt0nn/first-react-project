@@ -15,7 +15,7 @@ class TodoForm extends React.Component {
   // This function add the new todo to the list every submit
   handleSubmit = event => {
     event.preventDefault();
-    this.props.addTodo{this.state.todoInput}`);
+    this.props.addTodo(this.state.todoInput);
   };
 
   render() {
