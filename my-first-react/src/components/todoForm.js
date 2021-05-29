@@ -12,7 +12,7 @@ class TodoForm extends React.Component {
     this.setState({ todoInput: event.target.value });
   };
 
-  // This function add the new todo to the list 
+  // This function notify the new todo to the list (alert msg) 
   handleSubmit = event => {
     event.preventDefault();
     alert(`A todo was added: ${this.state.todoInput}`);
