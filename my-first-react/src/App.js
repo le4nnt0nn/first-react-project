@@ -12,6 +12,15 @@ class App extends React.Component {
     };
   }
 
+  /* functions */
+
+  // function that collect a new todo and add it in todos
+  addTodo = todo => {
+    this.setState(prevState => ({
+      todos: [...prevState.todos, todo],
+    }));
+  };
+
 
   render() {
     return (
