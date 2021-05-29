@@ -1,18 +1,27 @@
 import './App.css';
 import TodoList from "./components/todoList";
 import TodoForm from "./components/todoForm";
+import React from "react"
 
-function App() {
-  return (
-    <div className="App">
-        <h1>To-Do List</h1>
-        <div className="todo-list">
-          <TodoList />
-          <TodoForm />
-        </div>
+class App extends React.Component {
+  /* constructor */
+  constructor(props) {
+    super(props);
+    this.state = {
+      todos: ["Aprender React", "Practicar Visual Basic", "Salir con amigos", "Ver serie de anime"],
+    };
+  }
 
-    </div>
-  );
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Todos</h1>
+        <TodoList todos={this.state.todos} />
+        <TodoForm />
+      </div>
+    );
+  }
 }
 
 export default App;
