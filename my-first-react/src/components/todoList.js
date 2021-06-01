@@ -7,7 +7,10 @@ const Todo = props => <li style={{paddingTop: "20px"}}>{props.todo}</li>;
 const TodoList = props => (
   <ul style={{marginTop: "-10px", marginBottom:"50px", listStyle: "none", textAlign: "center", justifyContent: "center"}}>
     {props.todos.map(todo => (
-      <Todo todo={todo} key={todo} />
+      <Todo todo={todo} 
+      key={todo} 
+      deleteTodo={props.deleteTodo}
+      />
     ))}
   </ul>
 
