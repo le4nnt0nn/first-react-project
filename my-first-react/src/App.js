@@ -26,6 +26,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Todos</h1>
+        <h2>Plan your Day !</h2>
         <TodoList todos={this.state.todos} />
         <TodoForm addTodo={this.addTodo} />
       </div>
