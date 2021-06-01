@@ -20,6 +20,8 @@
   font-size: 50px;
   background-color: transparent;
   color: rgb(255, 93, 34);
+  text-align: center;
+  justify-content: center;
 }
 
 .todo-list {
