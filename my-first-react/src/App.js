@@ -21,6 +21,13 @@ class App extends React.Component {
     }));
   };
 
+  // function that remove the selected todo ( selected todo = value )
+  deleteTodo = value => {
+    this.setState(prevState => ({
+      todos: prevState.todos.filter(todo => todo !== value),
+    }));
+  };
+
 
   render() {
     return (
