@@ -4,6 +4,8 @@
   background-color: rgb(56, 243, 243);
   font-family: 'Recursive', sans-serif;
   font-weight: bold;
+  text-align: center;
+  justify-content: center;
 }
 
 .App {
@@ -17,11 +19,22 @@
 
 .App h1 {
   margin-top: 130px;
+  margin-bottom: 10px;
   font-size: 50px;
   background-color: transparent;
   color: rgb(255, 93, 34);
   text-align: center;
   justify-content: center;
+}
+
+.App h2 {
+  margin-top: 2px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  background-color: transparent;
+  color: rgb(248, 12, 12);
+  text-align: center;
+  justify-content: center; 
 }
 
 .todo-list {
