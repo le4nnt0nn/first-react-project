@@ -37,6 +37,18 @@
   justify-content: center; 
 }
 
+.card {
+  margin: 0 auto;
+  align-items: center;
+  width: 300px;
+  height: auto;  
+  background: #121213;
+  color: #FFFFFF;
+  border-radius: 25px;
+  box-shadow: 0px 7px 7px rgba(36, 35, 35, 0.521);
+  padding: 5px 19px;
+}
+
 .todo-list {
   align-items: center;
   justify-content: center;
