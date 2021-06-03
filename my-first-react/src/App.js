@@ -34,7 +34,9 @@ class App extends React.Component {
       <div className="App">
         <h1>Todos</h1>
         <h2>Plan your Day !</h2>
-        <TodoList todos={this.state.todos} deleteTodo={this.deleteTodo} />
+        <div className="card">
+          <TodoList todos={this.state.todos} deleteTodo={this.deleteTodo} />
+        </div>
         <TodoForm addTodo={this.addTodo} />
       </div>
     );
