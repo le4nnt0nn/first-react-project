@@ -38,6 +38,7 @@ class App extends React.Component {
           <TodoList todos={this.state.todos} deleteTodo={this.deleteTodo} />
         </div>
         <TodoForm addTodo={this.addTodo} />
+        <div className="footer"></div>
       </div>
     );
   }
