@@ -21,11 +21,11 @@ class TodoForm extends React.Component {
   render() {
     return (
       <form onSubmit={event => this.handleSubmit(event)}>
-        <input style={{backgroundColor: "lightblue", border: "none", outline: "none", textAlign: "center", justifyContent: "center"}} type="text" placeholder="Add task" 
+        <input style={{backgroundColor: "#f3c96c", border: "none", outline: "none", textAlign: "center", justifyContent: "center"}} type="text" placeholder="Add task" 
          value={this.state.todoInput}
          onChange={event => this.doChange(event)}
         />
-        <input style={{backgroundColor: "lightblue", border: "none", fontSize: "15px", cursor: "pointer", marginLeft: "10px", textAlign: "center", justifyContent: "center"}} type="submit" value="Submit" />
+        <input style={{backgroundColor: "#f3c96c", border: "none", fontSize: "15px", cursor: "pointer", marginLeft: "10px", textAlign: "center", justifyContent: "center"}} type="submit" value="Submit" />
       </form>
     );
   }
