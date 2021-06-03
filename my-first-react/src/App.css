@@ -38,7 +38,7 @@
 }
 
 .card {
-  margin: 0 auto;
+  margin: 0 auto 25px;
   align-items: center;
   width: 300px;
   height: auto;  
