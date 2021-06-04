@@ -47,7 +47,7 @@ Used [React](https://es.reactjs.org/ "React Documentation") and [HTML](https://w
  
 ### 📷 Templates
 
-![TodoApp](./docs/todoApp.png "TodoApp View")
+![TodoApp](./docs/todoApp.PNG "TodoApp View")
 
 
  
