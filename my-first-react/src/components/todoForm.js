@@ -18,6 +18,11 @@ class TodoForm extends React.Component {
     this.props.addTodo(this.state.todoInput);
   };
 
+  addTodoAudio() {
+    const audioEl = document.getElementsByClassName("audio-element")[0]
+    audioEl.play()
+  }
+
   render() {
     return (
       <form onSubmit={event => this.handleSubmit(event)}>
@@ -25,7 +30,10 @@ class TodoForm extends React.Component {
          value={this.state.todoInput}
          onChange={event => this.doChange(event)}
         />
-        <input style={{backgroundColor: "#f3c96c", border: "none", fontSize: "15px", cursor: "pointer", marginLeft: "10px", textAlign: "center", justifyContent: "center"}} type="submit" value="Submit" />
+        <audio className="audio-element">
+          <source src="./addTodo.mp3"></source>
+        </audio>
+        <input style={{backgroundColor: "#f3c96c", border: "none", fontSize: "15px", cursor: "pointer", marginLeft: "10px", textAlign: "center", justifyContent: "center"}} type="submit" value="Submit" onClick={this.addTodoAudio} />
       </form>
     );
   }
