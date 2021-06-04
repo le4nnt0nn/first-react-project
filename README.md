@@ -9,7 +9,7 @@
     <h5>Check it in 🔍</h5>
     <h3>
         <span> | </span>
-         <a href="https://replit.com/@le4nnt0nn/PetInventoryProject">
+         <a href="https://replit.com/@le4nnt0nn/first-react-project">
             Replit
         </a>
         <span> | </span>
