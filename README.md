@@ -9,8 +9,8 @@
     <h5>Check it in 🔍</h5>
     <h3>
         <span> | </span>
-         <a href="https://replit.com/@le4nnt0nn/first-react-project">
-            Replit
+         <a href="https://codesandbox.io/s/github/le4nnt0nn/first-react-project">
+            CodeSandBox
         </a>
         <span> | </span>
     </h3>
